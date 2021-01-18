@@ -1,0 +1,50 @@
+html, body {
+    font-family: serif;
+}
+body {
+    margin: 20px;
+}
+
+hr{
+    width: 80%;
+}
+
+.table{
+    display: inline-block;
+    border: 2px solid yellowgreen;
+    width: 120px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.package-name{
+    color: yellowgreen;
+}
+
+.prise{
+    font-size: 25px;
+    margin-bottom: 1px;
+    margin-top: 14px;
+}
+
+.features{
+	padding: 0;
+	margin: 0;
+}
+
+.features li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.row{
+    display: flex;
+}
+
+.city{
+    margin-left: 60px;
+    margin-top: 0px;
+    padding: 0px;
+    height: 30px;
+}
