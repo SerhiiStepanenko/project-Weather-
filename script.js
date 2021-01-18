@@ -1,4 +1,4 @@
-fetch('http://api.openweathermap.org/data/2.5/weather?id=703448&appid=2850bfc126a41dc9689aeb6ae8218480') 
+fetch('https://api.openweathermap.org/data/2.5/weather?id=703448&appid=2850bfc126a41dc9689aeb6ae8218480') 
     .then(function(resp){return resp.json()} )
     .then(function(data){
         console.log(data);
@@ -12,7 +12,7 @@ fetch('http://api.openweathermap.org/data/2.5/weather?id=703448&appid=2850bfc126
             let a = document.querySelector('.city').value;
 
             if(a == '2'){
-                fetch('http://api.openweathermap.org/data/2.5/weather?id=690548&appid=2850bfc126a41dc9689aeb6ae8218480')
+                fetch('https://api.openweathermap.org/data/2.5/weather?id=690548&appid=2850bfc126a41dc9689aeb6ae8218480')
                 .then(function(resp){return resp.json()} )
                 .then(function(data){
                 console.log(data);
@@ -23,7 +23,7 @@ fetch('http://api.openweathermap.org/data/2.5/weather?id=703448&appid=2850bfc126
                 document.querySelector('.features li:last-child').innerHTML = data.sys['country'];
                 })
             }else if(a == '3'){
-                fetch('http://api.openweathermap.org/data/2.5/weather?id=689558&appid=2850bfc126a41dc9689aeb6ae8218480')
+                fetch('https://api.openweathermap.org/data/2.5/weather?id=689558&appid=2850bfc126a41dc9689aeb6ae8218480')
                 .then(function(resp){return resp.json()} )
                 .then(function(data){
                 console.log(data);
@@ -34,7 +34,7 @@ fetch('http://api.openweathermap.org/data/2.5/weather?id=703448&appid=2850bfc126
                 document.querySelector('.features li:last-child').innerHTML = data.sys['country'];
                 })
             }else if(a == '1'){
-                fetch('http://api.openweathermap.org/data/2.5/weather?id=703448&appid=2850bfc126a41dc9689aeb6ae8218480')
+                fetch('https://api.openweathermap.org/data/2.5/weather?id=703448&appid=2850bfc126a41dc9689aeb6ae8218480')
                 .then(function(resp){return resp.json()} )
                 .then(function(data){
                 console.log(data);
@@ -45,7 +45,7 @@ fetch('http://api.openweathermap.org/data/2.5/weather?id=703448&appid=2850bfc126
                 document.querySelector('.features li:last-child').innerHTML = data.sys['country'];
                 })
             }else if(a == '4'){
-                fetch('http://api.openweathermap.org/data/2.5/weather?id=705914&appid=2850bfc126a41dc9689aeb6ae8218480')
+                fetch('https://api.openweathermap.org/data/2.5/weather?id=705914&appid=2850bfc126a41dc9689aeb6ae8218480')
                 .then(function(resp){return resp.json()} )
                 .then(function(data){
                 console.log(data);
@@ -56,7 +56,7 @@ fetch('http://api.openweathermap.org/data/2.5/weather?id=703448&appid=2850bfc126
                 document.querySelector('.features li:last-child').innerHTML = data.sys['country'];
                 })
             }else if(a == '5'){
-                fetch('http://api.openweathermap.org/data/2.5/weather?id=1510853&appid=2850bfc126a41dc9689aeb6ae8218480')
+                fetch('https://api.openweathermap.org/data/2.5/weather?id=1510853&appid=2850bfc126a41dc9689aeb6ae8218480')
                 .then(function(resp){return resp.json()} )
                 .then(function(data){
                 console.log(data);
