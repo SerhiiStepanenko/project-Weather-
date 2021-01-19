@@ -20,26 +20,17 @@ document.querySelector('.city').onchange = () =>{
 }
 
 function transformCityToId(a){
-    if(a == '2'){
+    if(a == 'Uzhgorod'){
         return 690548;
-    }else if(a == '3'){
+    }else if(a == 'Vinnytsia'){
         return 689558;
-    }else if(a == '1'){
+    }else if(a == 'Kyiv'){
         return 703448;
-    }else if(a == '4'){
+    }else if(a == 'Khyriv'){
         return 705914;
-    }else if(a == '5'){
+    }else if(a == 'Barnaul'){
         return 1510853;
     }
 }
 
 loadWetherAndOutput(703448);
-
-
-
-
-
-
-
-
-
